@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Please Forgive Me 🥺</title>
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+      background: #fde8f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .box {
+      text-align: center;
+      max-width: 360px;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 24px;
+      color: #8b004f;
+    }
+
+    img {
+      width: 100%;
+      max-width: 250px;
+      margin: 20px 0;
+      border-radius: 12px;
+    }
+
+    #text {
+      font-size: 18px;
+      margin: 15px 0;
+    }
+
+    .btns {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    button {
+      padding: 12px 24px;
+      font-size: 16px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    #yesBtn {
+      background: #d63384;
+      color: white;
+    }
+
+    #noBtn {
+      background: #adb5bd;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+
+<div class="box">
+  <h1>🥺 I am sorry<br>please excuse meeee</h1>
+
+  <!-- put your gif here -->
+  <img src="sorry.gif" alt="sorry gif" />
+
+  <p id="text">Will you forgive me?</p>
+
+  <div class="btns">
+    <button id="yesBtn" onclick="yesClick()">YES 💜</button>
+    <button id="noBtn" onclick="noClick()">NO 😤</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
